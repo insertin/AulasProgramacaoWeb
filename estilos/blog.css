@@ -1,0 +1,39 @@
+body {
+    font-family: Helvetica, sans-serif;
+
+}
+
+.identificador {
+    background-color: #579FF0;
+    color: #FCFCFD;
+
+}
+.identificador h1 {
+    font-size: 2.5em;
+}
+.identificador h2 {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.escuras {
+    background-color: #2B313E;
+    color: #fcfcfd;
+
+
+}
+
+.claras {
+        background-color: #fcfcfd;
+        color: #2B313E
+}
+
+
+.styleprojetos li {
+    background-color: darkturquoise
+}
+
+.styleprojetos li a {
+    color: #000000;
+    font-size: 1.3em;
+}
