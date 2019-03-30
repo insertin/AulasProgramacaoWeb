@@ -2,10 +2,18 @@ body {
     font-family: Helvetica, sans-serif;
 
 }
+
+header {
+    border-bottom: 1px solid #ccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
 header li {
 
         display: inline-block;
-        margin-left: 20em;
+        margin-left: 15em;
        
 }
 
@@ -16,6 +24,11 @@ header li {
 .container {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+section {
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .identificador {
@@ -36,6 +49,7 @@ header li {
 
 section h3 {
     font-size: 1.7em;
+    margin-bottom: 0.5em;
 }
 
 
@@ -60,13 +74,32 @@ header li a {
 
 
 .styleprojetos li {
-    background-color: darkturquoise
+    background-color: darkturquoise;
+    padding: 1em;
+    margin-bottom: 2em;    
+
 }
 
 .styleprojetos li a {
     color: #000000;
     font-size: 1.3em;
 }
+
+.styleprojetos li p {
+    color: #fcfcfd;
+    margin-top: 0.5em;
+}
+
+#sobre p.text {
+    margin: 1em;
+}
+
+#sobre p.bio {
+    color: #579FF0;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
 #sobre img {
     width: 200px;
     margin: 1em;
