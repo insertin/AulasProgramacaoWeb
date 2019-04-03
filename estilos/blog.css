@@ -3,6 +3,11 @@ body {
 
 }
 
+section img {
+    width:100%;
+    max-width: 400px;
+}
+
 header {
     border-bottom: 1px solid #ccc;
     padding-top: 1em;
@@ -13,7 +18,7 @@ header {
 header li {
 
         display: inline-block;
-        margin-left: 15em;
+        margin-left: 16.4em;
        
 }
 
@@ -34,12 +39,12 @@ section {
 .identificador {
     background-color: #579FF0;
     color: #FCFCFD;
-    padding: 6em 44em;
+    padding: 8em 22em;
 
 }
 .identificador h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.7em;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
     
 }
 .identificador h2 {
@@ -73,6 +78,15 @@ header li a {
 }
 
 
+.projetos-header {
+    float: left;
+}
+
+.styleprojetos {
+    margin-left: 40%;
+
+}
+
 .styleprojetos li {
     background-color: darkturquoise;
     padding: 1em;
@@ -87,7 +101,9 @@ header li a {
 
 .styleprojetos li p {
     color: #fcfcfd;
-    margin-top: 0.5em;
+    margin-top: 1.5em;
+    text-align: justify;
+    line-height: 1.2;
 }
 
 #sobre p.text {
@@ -102,7 +118,7 @@ header li a {
 
 #sobre img {
     width: 200px;
-    margin: 1em;
+    
 }
 
 footer {
@@ -113,5 +129,5 @@ footer {
 #projetos img {
     width: 500px;
     padding: 1em;
-    padding-left: 10%;
+    padding-left: 01.2%;
 }
