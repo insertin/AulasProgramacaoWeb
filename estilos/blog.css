@@ -1,9 +1,3 @@
-*{
-    box-sizing: border-box;
-
-}
-
-
 body {
     font-family: Helvetica, sans-serif;
 
@@ -18,26 +12,13 @@ header {
     border-bottom: 1px solid #ccc;
     padding-top: 1em;
     padding-bottom: 1em;
-    position: left;
-    width: 100%;
-    height: 3em;
-}
-header ul {
-    text-align: left;
 }
 
-}
-header li a {
-
-color: #99A0B0;
-font-weight: lighter;
-text-transform: uppercase;
-}
 
 header li {
 
         display: inline-block;
-        margin-left: 15.4em;
+        margin-left: 16.4em;
        
 }
 
@@ -53,18 +34,17 @@ header li {
 section {
     padding-top: 2em;
     padding-bottom: 2em;
-    text-align: center;
 }
 
 .identificador {
     background-color: #579FF0;
     color: #FCFCFD;
-    padding: 4em 22em;
+    padding: 8em 22em;
 
 }
 .identificador h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.7em;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
     
 }
 .identificador h2 {
@@ -128,32 +108,17 @@ header li a {
 
 #sobre p.text {
     margin: 1em;
-    width: 50%;
-    line-height: 1.4;
 }
 
 #sobre p.bio {
     color: #579FF0;
     font-size: 1.5em;
     margin: 1em;
-    width:50;
 }
-#sobre {
-    position: relative;
- }
-
-
- a {
-     text-decoration: none;
- }
-
-
 
 #sobre img {
-    width: 270px;
-    position: absolute;
-    top: 0;
-    right:0; 
+    width: 200px;
+    
 }
 
 footer {
