@@ -1,31 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Helvetica, sans-serif;
+}
 
+a {
+    text-decoration: none;
 }
 
 section img {
-    width:100%;
-    max-width: 400px;
+    width: 100%;
+    max-width: 300px;
 }
 
 header {
     border-bottom: 1px solid #ccc;
     padding-top: 1em;
     padding-bottom: 1em;
+    position: fixed;
+    width: 100%;
+    height: 3em;
 }
 
+header ul {
+    text-align: right;
+}
+
+header li a {
+    color: #99A0B0;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
 
 header li {
-
-        display: inline-block;
-        margin-left: 16.4em;
-       
+    display: inline-block;
+    margin-left: 3em;
 }
 
 #contato li {
-        display: inline-block;
-        margin: 1em;
+    display: inline-block;
+    margin: 1em;
 }
+
 .container {
     padding-left: 10%;
     padding-right: 10%;
@@ -34,20 +52,21 @@ header li {
 section {
     padding-top: 2em;
     padding-bottom: 2em;
+    text-align: center;
 }
 
-.identificador {
+.identificacao {
     background-color: #579FF0;
     color: #FCFCFD;
-    padding: 8em 22em;
+    padding: 10em 2em 7em;
+}
 
+.identificacao h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
 }
-.identificador h1 {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-    
-}
-.identificador h2 {
+
+.identificacao h2 {
     font-size: 1.5em;
     font-weight: lighter;
 }
@@ -57,77 +76,75 @@ section h3 {
     margin-bottom: 0.5em;
 }
 
-
 header li a {
     color: #99A0B0;
     font-weight: lighter;
-}  
-
-
+}
 
 .escuras {
     background-color: #2B313E;
-    color: #fcfcfd;
-
-
+    color: #FCFCFD;
 }
 
 .claras {
-        background-color: #fcfcfd;
-        color: #2B313E
+    background-color: #FCFCFD;
+    color: #2B313E;
 }
-
 
 .projetos-header {
     float: left;
+
 }
 
-.styleprojetos {
+.styleprojetos{
     margin-left: 40%;
-
 }
 
 .styleprojetos li {
-    background-color: darkturquoise;
+    background-color: #6F768B;
     padding: 1em;
-    margin-bottom: 2em;    
-
+    margin-bottom: 2em;
 }
 
 .styleprojetos li a {
-    color: #000000;
+    color: #ffffff;
     font-size: 1.3em;
 }
 
 .styleprojetos li p {
-    color: #fcfcfd;
-    margin-top: 1.5em;
+    color: #fff;
+    margin-top: 0.5em;
     text-align: justify;
     line-height: 1.2;
 }
 
 #sobre p.text {
     margin: 1em;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.4;
 }
 
 #sobre p.bio {
-    color: #579FF0;
+    color: #579ff0;
     font-size: 1.5em;
     margin: 1em;
+    width: 50%;
+}
+
+#sobre {
+    position: relative;
 }
 
 #sobre img {
     width: 200px;
-    
+    position: absolute;
+    top: 2.5em;
+    right: 10%;
 }
 
 footer {
     padding-top: 1em;
     padding-bottom: 1em;
-}
 
-#projetos img {
-    width: 500px;
-    padding: 1em;
-    padding-left: 01.2%;
 }
