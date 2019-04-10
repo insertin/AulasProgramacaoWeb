@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+section img {
+    width: 100%;
+    max-width: 300px;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: fixed;
+    width: 100%;
+    height: 3em;
+}
+
+header ul {
+    text-align: right;
+}
+
+header li a {
+    color: #99A0B0;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+#contato li {
+    display: inline-block;
+    margin: 1em;
+
+}
+#contato li a{
+    display: inline-block;
+    margin: 1em;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+}
+
+
+#contato .email {
+    background-image: url("../imagens/email.png");
+}
+#contato .face {
+    background-image: url("../imagens/face.png");
+}
+#contato .steam {
+    background-image: url("../imagens/steam-icon.png");
+}
+#contato .github {
+    background-image: url("../imagens/github.png");
+}
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.identificacao {
+    
+    background-color: #579FF0;
+    color: #FCFCFD;
+    padding: 10em 2em 7em;
+    background: url(../imagens/background.jpg);
+    background-size: cover;
+}
+
+.identificacao h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+}
+
+.identificacao h2 {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+section h3 {
+    font-size: 1.7em;
+    margin-bottom: 0.5em; 
+}
+
+header li a {
+    color: #99A0B0;
+    font-weight: lighter;
+}
+
+.escuras {
+
+    background-color: #FCFCFD;
+    color: #000000;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.claras {
+    background-color: #000000;
+    color: #000000;
+    font-size:center;
+    
+}
+
+.projetos-header {
+    float: left;
+
+
+}
+.projetos-header h3 {
+    margin-top: 1em;
+
+}
+.styleprojetos{
+    margin-left: 40%;
+}
+
+.styleprojetos li {
+    background-color: rgb(209, 210, 212);
+    padding: 1em;
+   
+    border-radius: 10px;
+}
+
+.styleprojetos li a {
+    color: #ffffff;
+    font-size: center;
+    border-radius: 10px;
+}
+
+.styleprojetos li p {
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+#sobre p.text {
+    margin: 1em;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+#sobre p.bio {
+    color: #579ff0;
+    font-size: 1.5em;
+    margin: 1em;
+    width: 50%;
+}
+
+#sobre {
+    position: relative;
+}
+
+#sobre img {
+    width: 200px;
+    position: absolute;
+    top: 2.5em;
+    right: 10%;
+}
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+a:link, a:visited {
+    background-color:#000000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color:#99A0B0;
+  }
