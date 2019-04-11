@@ -12,8 +12,10 @@ a {
 }
 
 section img {
-    width: 100%;
-    max-width: 300px;
+    width: 500%;
+    max-width: 400px;
+
+
 }
 
 header {
@@ -33,6 +35,8 @@ header li a {
     color: #99A0B0;
     font-weight: lighter;
     text-transform: uppercase;
+   
+    border-radius: 10px;
 }
 
 header li {
@@ -108,7 +112,7 @@ header li a {
 
 .escuras {
 
-    background-color: #FCFCFD;
+    background-color: #99A0B0;
     color: #000000;
     font-style: normal;
     font-weight: 800;
@@ -116,7 +120,7 @@ header li a {
 
 .claras {
     background-color: #000000;
-    color: #000000;
+    color: #ffffff;
     font-size:center;
     
 }
@@ -138,7 +142,7 @@ header li a {
     background-color: rgb(209, 210, 212);
     padding: 1em;
    
-    border-radius: 10px;
+   
 }
 
 .styleprojetos li a {
@@ -161,7 +165,7 @@ header li a {
 }
 
 #sobre p.bio {
-    color: #579ff0;
+    color: #000000;
     font-size: 1.5em;
     margin: 1em;
     width: 50%;
