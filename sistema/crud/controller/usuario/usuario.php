@@ -3,15 +3,17 @@
 
 <head>
    <?php
-   require_once 'view/head.php';
+   require_once '../../view/head.php';
    ?>
 </head>
-
 <body>
-    
-    <div class="container">
+<?php
+   require_once '../../view/nav.php';
+   ?>
+
+   <div class="container">
    <div class="row justify-content-center bg-light">
-       <form action="" method="POST">
+       <form action="usuarioDAO.php" method="POST">
            <div class="form-group">
                <label>Usuário</label>
                <input type="text" class="form-control" name="usuario" id="usuario">
@@ -21,11 +23,13 @@
                <input type="password" class="form-control" name="senha" id="senha">
            </div>
             <div class="form-group">
-           <button  type="submit" class="btn btn-primary"name="autenticar"> Entrar </button> 
-           <a href="/sistema/index.html" class="btn btn-info"> Voltar</a>
+           <button  type="submit" class="btn btn-primary"name="salvar"> Entrar </button> 
+        
 </div>
        </form>
    </div>
 </div>
 
 </body>
+
+</html>
